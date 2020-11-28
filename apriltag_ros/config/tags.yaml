@@ -29,18 +29,52 @@ standalone_tags:
 #
 # ### Syntax
 #
-# tag_bundles:
-#   [
-#     {
-#       name: 'CUSTOM_BUNDLE_NAME',
-#       layout:
-#         [
-#           {id: ID, size: SIZE, x: X_POS, y: Y_POS, z: Z_POS, qw: QUAT_W_VAL, qx: QUAT_X_VAL, qy: QUAT_Y_VAL, qz: QUAT_Z_VAL},
-#           ...
-#         ]
-#     },
-#     ...
-#   ]
-tag_bundles:
-  [
-  ]
+ tag_bundles:
+   [
+     {
+       name: 'CUSTOM_BUNDLE_NAME',
+       layout:
+         [
+           { id: 0, size: 0.11, x: 0.0, y: 0, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 1, size: 0.11, x: 0.0, y: 0.143, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 2, size: 0.11, x: 0.0, y: 0.286, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 3, size: 0.11, x: 0.0, y: 0.429, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 4, size: 0.11, x: 0.0, y: 0.572, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 5, size: 0.11, x: 0.0, y: 0.715, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 6, size: 0.11, x: 0.143, y: 0, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 7, size: 0.11, x: 0.143, y: 0.143, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 8, size: 0.11, x: 0.143, y: 0.286, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 9, size: 0.11, x: 0.143, y: 0.429, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 10, size: 0.11, x: 0.143, y: 0.572, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 11, size: 0.11, x: 0.143, y: 0.715, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 12, size: 0.11, x: 0.286, y: 0, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 13, size: 0.11, x: 0.286, y: 0.143, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 14, size: 0.11, x: 0.286, y: 0.286, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 15, size: 0.11, x: 0.286, y: 0.429, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 16, size: 0.11, x: 0.286, y: 0.572, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 17, size: 0.11, x: 0.286, y: 0.715, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 18, size: 0.11, x: 0.429, y: 0, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 19, size: 0.11, x: 0.429, y: 0.143, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 20, size: 0.11, x: 0.429, y: 0.286, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 21, size: 0.11, x: 0.429, y: 0.429, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 22, size: 0.11, x: 0.429, y: 0.572, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 23, size: 0.11, x: 0.429, y: 0.715, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 24, size: 0.11, x: 0.572, y: 0, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 25, size: 0.11, x: 0.572, y: 0.143, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 26, size: 0.11, x: 0.572, y: 0.286, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 27, size: 0.11, x: 0.572, y: 0.429, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 28, size: 0.11, x: 0.572, y: 0.572, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 29, size: 0.11, x: 0.572, y: 0.715, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 30, size: 0.11, x: 0.715, y: 0, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 31, size: 0.11, x: 0.715, y: 0.143, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 32, size: 0.11, x: 0.715, y: 0.286, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 33, size: 0.11, x: 0.715, y: 0.429, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 34, size: 0.11, x: 0.715, y: 0.572, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 },
+           { id: 35, size: 0.11, x: 0.715, y: 0.715, z: 0, qw: 1, qx: 0, qy: 0, qz: 0 }
+         ]
+     },
+     ...
+   ]
+#tag_bundles:
+#  [
+#  ]
